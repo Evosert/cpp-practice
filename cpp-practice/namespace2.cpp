@@ -10,23 +10,15 @@ void set()
 
 namespace doodle
 {
-	void set()
-	{
-		n = 20;
-	}
+	void set();
 
 	namespace google
 	{
-		void set()
-		{
-			n = 30;
-		}
+		void set();
 		int n;
 	}
 	int n;
 }
-
-
 
 int main()
 {
@@ -39,4 +31,14 @@ int main()
 	cout << doodle::google::n << endl;
 
 	return 0;
+}
+
+void doodle::set()
+{
+	n = 20;
+}
+
+void doodle::google::set()
+{
+	n = 30;
 }
