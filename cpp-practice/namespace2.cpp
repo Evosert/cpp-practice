@@ -10,7 +10,6 @@ void set()
 
 namespace doodle
 {
-	int n;
 	void set()
 	{
 		n = 20;
@@ -24,6 +23,7 @@ namespace doodle
 		}
 		int n;
 	}
+	int n;
 }
 
 
