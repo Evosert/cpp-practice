@@ -23,7 +23,7 @@ namespace google
 	int n;
 	void set()
 	{
-		n = 30;
+		::n = 30;
 	}
 }
 
