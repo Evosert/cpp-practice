@@ -6,7 +6,7 @@ int n;
 
 void set()
 {
-	::n = 10;
+	n = 10;
 }
 
 namespace doodle
@@ -14,7 +14,7 @@ namespace doodle
 	int n;
 	void set()
 	{
-		doodle::n = 20;
+		n = 20;
 	}
 }
 
@@ -23,7 +23,7 @@ namespace google
 	int n;
 	void set()
 	{
-		google::n = 30;
+		n = 30;
 	}
 }
 
