@@ -31,23 +31,17 @@ int main()
 	return 0;
 }
 
-void set()
+void ::set()
 {
 	n = 10;
 }
 
-namespace doodle
+void doodle::set()
 {
-	void set()
-	{
-		n = 20;
-	}
+	n = 20;
 }
 
-namespace google
+void google::set()
 {
-	void set()
-	{
-		n = 30;
-	}
+	n = 30;
 }
