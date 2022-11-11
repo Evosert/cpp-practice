@@ -18,11 +18,11 @@ namespace doodle
 
 	namespace google
 	{
-		int n;
 		void set()
 		{
 			n = 30;
 		}
+		int n;
 	}
 }
 
