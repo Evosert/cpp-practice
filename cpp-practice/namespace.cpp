@@ -3,7 +3,6 @@
 using namespace std;
 
 int n;
-
 void set();
 
 namespace doodle
