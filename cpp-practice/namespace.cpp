@@ -4,27 +4,18 @@ using namespace std;
 
 int n;
 
-void set()
-{
-	n = 10;
-}
+void set();
 
 namespace doodle
 {
 	int n;
-	void set()
-	{
-		n = 20;
-	}
+	void set();
 }
 
 namespace google
 {
 	int n;
-	void set()
-	{
-		::n = 30;
-	}
+	void set();
 }
 
 int main()
@@ -38,4 +29,25 @@ int main()
 	cout << google::n << endl;
 
 	return 0;
+}
+
+void set()
+{
+	n = 10;
+}
+
+namespace doodle
+{
+	void set()
+	{
+		n = 20;
+	}
+}
+
+namespace google
+{
+	void set()
+	{
+		n = 30;
+	}
 }
