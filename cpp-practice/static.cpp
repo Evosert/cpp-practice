@@ -21,6 +21,8 @@ private:
     float r;
     float g;
     float b;
+
+    int id;
 };
 
 int main()
