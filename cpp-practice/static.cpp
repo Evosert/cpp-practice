@@ -17,7 +17,7 @@ public:
         return Color((a.r + b.r) / 2, (a.g + b.g) / 2, (a.b + b.b) / 2);
     }
 
-    static int idCounter = 1;
+    static int idCounter;
 
 private:
     float r;
