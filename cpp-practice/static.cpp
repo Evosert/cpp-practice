@@ -27,6 +27,8 @@ private:
     int id;
 };
 
+int Color::idCounter = 1;
+
 int main()
 {
     Color blue(0, 0, 1);
