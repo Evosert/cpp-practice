@@ -23,7 +23,7 @@ public:
 		}
 	}
 
-	int ViewMoney()
+	int ViewMoney() const
 	{
 		return money;
 	}
