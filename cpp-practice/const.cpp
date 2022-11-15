@@ -8,13 +8,13 @@ public:
 	Account() : money(0) {}
 	Account(int money) : money(money) {}
 
-	void Deposit(int d)
+	void Deposit(const int d)
 	{
 		money += d;
 		cout << d << "원을 예금했습니다." << endl;
 	}
 
-	void Draw(int d)
+	void Draw(const int d)
 	{
 		if (money >= d)
 		{
