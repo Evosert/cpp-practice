@@ -21,3 +21,12 @@ Vector2::Vector2(float x, float y) : x(x), y(y) {}
 
 float Vector2::GetX() const { return x; }
 float Vector2::GetY() const { return y; }
+
+int main()
+{
+	Vector2 a(2, 3);
+	Vector2 b(-1, 4);
+
+	cout << "a(" << a.GetX() << ", " << a.GetY() << ")" << endl;
+	cout << "b(" << b.GetX() << ", " << b.GetY() << ")" << endl;
+}
